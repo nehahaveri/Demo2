@@ -15,7 +15,7 @@ def calculator(operation, num1, num2):
         ValueError: If operation is not supported, or if dividing by zero.
     """
     if operation == "add":
-        return num1 + num2
+        return num1 - num2
     if operation == "subtract":
         return num1 - num2
     if operation == "multiply":
